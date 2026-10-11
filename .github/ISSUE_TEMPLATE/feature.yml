@@ -1,0 +1,21 @@
+name: Feature request / 功能建议
+description: Describe the task you want to accomplish / 描述你想完成的任务
+title: "[Feature] "
+labels: [enhancement, triage]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do? / 你想完成什么？
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Desired behavior / 希望怎样改进
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Current workaround / 当前的替代办法

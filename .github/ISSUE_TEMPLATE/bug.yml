@@ -1,0 +1,44 @@
+name: Bug report / 问题反馈
+description: Report a reproducible problem / 报告可复现的问题
+title: "[Bug] "
+labels: [bug, triage]
+body:
+  - type: markdown
+    attributes:
+      value: "This report is public. Do not include recordings, dictated text, clipboard contents, personal mappings or secrets. 此反馈公开，请勿上传音频、正文、剪贴板、个人映射表或密钥。"
+  - type: input
+    id: version
+    attributes:
+      label: Trie version / 版本
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: macOS, chip and memory / 系统、芯片及内存
+    validations:
+      required: true
+  - type: dropdown
+    id: installation
+    attributes:
+      label: Installation method / 安装方式
+      options: [DMG, Homebrew, Installation script, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce / 复现步骤
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual behavior / 预期与实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Optional diagnostics / 可选诊断
+      description: Review any attachment before uploading. 上传前请自行检查内容；不要上传原始日志或敏感正文。

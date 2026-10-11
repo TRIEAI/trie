@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private security report / 私密安全反馈
+    url: mailto:contact@trie.ai
+    about: Do not publish vulnerabilities or secrets in public issues / 请勿公开漏洞细节或密钥
+  - name: Installation guide / 安装说明
+    url: https://trie.ai/install.html
+    about: Requirements, permissions and setup / 系统要求、权限及设置
