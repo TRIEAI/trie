@@ -1,6 +1,6 @@
 # Trie
 
-Talk. Recognize. Interpret. Execute.
+Vision: Talk. Recognize. Interpret. Execute. Current releases stop at placing text; they do not execute commands or send messages.
 
 Trie is a local voice-input app for Apple Silicon Macs. It transcribes speech and can polish the result on your device, then places the text in the focused app. You decide whether to send it.
 
