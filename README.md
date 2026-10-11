@@ -6,6 +6,10 @@ Trie is a local voice-input app for Apple Silicon Macs. It transcribes speech an
 
 [中文](#中文) · [Website](https://trie.ai/) · [Installation](https://trie.ai/install.html) · [Privacy](https://trie.ai/en/privacy.html) · [Releases](https://github.com/TRIEAI/trie/releases)
 
+## Release availability
+
+Version 0.6.0 is undergoing release acceptance. This GitHub repository does not yet host downloadable app releases, and the Homebrew cask is not yet published. For the currently available version, follow the [website installation instructions](https://trie.ai/install.html). The DMG and setup-assistant workflow below describes the planned 0.6.0 delivery.
+
 ## Requirements and installation
 
 - Apple Silicon Mac, macOS 14 or later, at least 16 GB memory and 12 GB free disk space.
@@ -34,6 +38,8 @@ This repository hosts public documentation, release artifacts and feedback. The 
 ## 中文
 
 Trie 是 Apple Silicon Mac 上的本地语音输入工具。识别与润色在本机完成，将文字交付到输入位置后即停止；是否发送由你决定。
+
+发布状态：0.6.0 正在完成发布验收；本 GitHub 仓库尚无可下载的应用 Release，Homebrew cask 也尚未发布。当前可用版本请以[官网安装说明](https://trie.ai/install.html)为准。下述 DMG 与设置助手流程描述待发布的 0.6.0 交付。
 
 安装要求：macOS 14 或更新版本、至少 16 GB 内存、12 GB 可用磁盘。下载已发布的 DMG，将 Trie 拖到 Applications，推出安装磁盘，再从 Applications 启动。设置助手会按你的操作准备 Python、下载模型并引导三项权限。升级前先正常退出旧版。
 
